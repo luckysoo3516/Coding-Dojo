@@ -15,3 +15,7 @@ def solution(arrangement):
                 stick_count += len(arr)
             before = arrangement[i]
     return stick_count
+
+
+def solution_test():
+    assert solution("()(((()())(())()))(())") == 17
